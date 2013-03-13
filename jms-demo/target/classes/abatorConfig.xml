@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE abatorConfiguration PUBLIC "-//Apache Software Foundation//DTD Abator for iBATIS Configuration 1.0//EN" "http://ibatis.apache.org/dtd/abator-config_1_0.dtd" >
+<abatorConfiguration >
+  <abatorContext >
+    <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@xieche1.asiapacific.hpqcorp.net:1521/xe" userId="scott" password="TIGER" >
+      <classPathEntry location="C:\Users\xieche\.m2\repository\com\oracle\ojdbc5\11.2.0.1.0\ojdbc5-11.2.0.1.0.jar" />
+    </jdbcConnection>
+    <javaModelGenerator targetPackage="com.xcj.transaction" targetProject="jms-demo\src\main\java" />
+    <sqlMapGenerator targetPackage="scott" targetProject="jms-demo\src\main\resources" />
+    <daoGenerator targetPackage="com.xcj.transaction" targetProject="jms-demo\src\main\java" type="GENERIC-CI" />
+   <!--  <table schema="SBS_SRVCR" tableName="PSPRACT" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="PSPRACT" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="PRACTSELCT_DMN" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="PRACTSELCT_SUB_DMN" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="LL_PRACTSELCT_DMN" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="LL_PRACTSELCT_SUB_DMN" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="LL_PSPRACT" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="PSPRACT_PRRQ" >
+    </table>
+        <table schema="SBS_SRVCR" tableName="PSPRACT_PRRQ_ALTNV" >
+    </table>
+
+<table schema="scott" tableName="EMP" >
+    </table>
+    <table schema="scott" tableName="BONUS" >
+    </table>
+    <table schema="scott" tableName="SALGRADE" >
+    </table> -->
+        <table schema="scott" tableName="DEPT" >
+    </table>
+         <table schema="scott" tableName="DEPTPK" >
+    </table>
+  </abatorContext>
+</abatorConfiguration>
