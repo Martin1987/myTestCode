@@ -6,7 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<springFrameworkVersion>3.0.6.RELEASE</springFrameworkVersion>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
@@ -64,5 +63,5 @@
 			<artifactId>ibatis</artifactId>
 			<version>2.3.4.726</version>
 		</dependency>
-	</dependencies>
+
 </project>
